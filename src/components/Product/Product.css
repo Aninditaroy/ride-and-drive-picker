@@ -1,4 +1,18 @@
-.card{
+.card {
    max-width: 30rem;
    max-height: 40rem;
+}
+.card-footer{
+   border: none;
+   background-color: white;
+}
+.cart-btn {
+   border: 1px solid grey;
+}
+.btn-text {
+   color: black;
+}
+.icon {
+   font-size: 25px;
+   color: black; 
 }
