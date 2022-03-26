@@ -4,7 +4,7 @@ import {BsCartPlus} from 'react-icons/bs';
 const Product = ({ car,handleAddToCart }) => {
     const { img, car_model, price } = car;
     return (
-       <div className=''>
+       <div className='mb-5'>
             <div className='container mt-5 h-100'>
             <div className="card shadow-lg border-secondary mb-3 h-100">
                 <img src={img} alt="" className='h-75'/>

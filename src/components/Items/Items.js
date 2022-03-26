@@ -27,10 +27,16 @@ const Items = () => {
         }
     };
     const chooseOne = () => {
-        // let newCart;
-        // const random = Math.round(Math.random() * cart.length);
-        // newCart = cart.find[random];
-        // setCart(newCart);
+        let newCart;
+        const random = Math.round(Math.random() * cart.length);
+        {
+            const randomCars = cart.find(item => item.id === random);
+            if (randomCars) {
+                newCart = [randomCars];
+                setCart(newCart);
+            }
+        }
+        console.log(random);
     }
     return (
         <div className='conatiner'>
