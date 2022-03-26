@@ -30,7 +30,7 @@ const Items = () => {
         let newCart;
         const random = Math.round(Math.random() * cart.length);
         {
-            const randomCars = cart.find(item => item.id === random);
+            const randomCars = cart[random];
             if (randomCars) {
                 newCart = [randomCars];
                 setCart(newCart);
